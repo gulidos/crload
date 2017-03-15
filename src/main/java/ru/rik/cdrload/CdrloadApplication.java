@@ -46,7 +46,7 @@ public class CdrloadApplication implements ApplicationRunner {
 	@Override 
 	public void run(ApplicationArguments args) throws Exception {
 		for (String a : args.getNonOptionArgs())
-			System.out.println(a); 
+			System.out.println(a + ""); 
 	} 
 
 }
